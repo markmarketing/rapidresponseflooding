@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head)
+title="About Rapid Response Flood"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering areas across
+Victorville, Apple Valley, Hesperia, San Bernardino county area and across most of southern california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, victorville, san
+bernardino, california"
+}}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="{{ config.classes.content }}">
+
+        <!-- Page Title-->
+        <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+            <h1 class="display-3 fw-bold mb-3">about us</h1>
+            <p class="text-muted lead mb-0">
+                At <span class="text-body">Rapid Response Flood Restoration</span>, we are committed to providing our
+                customers with high-quality flood restoration services.
+                We have been serving the High Desert areas for over a decade, and our reputation speaks for itself. Our
+                team of dedicated professionals, is
+                available 24/7 to respond to any emergency situation. Whether you’re dealing with a minor flood or a
+                major catastrophe, mold buildup and damages to structures or maybe just a quick repair job, we have the
+                knowledge
+                and expertise including some advanced tools in our collection of asenals to get the job done right</p>
+        </header>
+        <!-- / Page Title-->
+
+        <!-- Page Content Goes Here -->
+        <div class="container py-7">
+            <!-- About Us Images-->
+            <div class="row g-3 d-flex position-relative">
+
+                <!-- Image Column Left -->
+                <div class="col-12 col-md-6 d-none d-md-block">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/about-1.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mb-3"
+                                    src="{{webRoot}}/assets/images/about-2.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/about-3.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Left -->
+
+                <!-- Image Column Right -->
+                <div class="col-12 col-md-6">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/about-4b.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mb-3"
+                                    src="{{webRoot}}/assets/images/about-5.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mt-2"
+                                    src="{{webRoot}}/assets/images/about-6.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Right -->
+
+            </div>
+            <!-- About Us Images-->
+
+            <div class="col-12 col-md-8 col-lg-12 mx-auto text-center py-4 border-bottom mb-5">
+                <h2 class="display-5 fw-medium my-5">we work with all insurance agencies</h2>
+            </div>
+
+            <!-- Company Story-->
+            <div class="py-6 row gx-8 align-items-start">
+                <div class="col-12 col-lg-6">
+                    <!-- <p class="mb-3 small fw-bolder tracking-wider text-uppercase text-primary">How it started</p> -->
+                    <h2 class="text-primary">Our story</h2>
+                    <p class="fs-5 text-muted">Rapid Response Flood Restoration started 12 years ago as a small family
+                        business with only 2 people. From then onwards as we fast forward to now, we have grown a fair
+                        bit and are proud of where we are now and the efforts it took us to get here.</p>
+                    <p class="fs-5 text-muted">Part of our growth is heavily influenced by our clients who are confident
+                        in our services and trust us to be able to help them recover from their losses due to damages
+                        from flooding, fire and smoke and from the growth of mold.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <picture>
+                        <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/victorville_home2.jpg"
+                            alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                </div>
+            </div>
+
+            <!-- /Company Story-->
+
+            <!-- Company Leadership-->
+            <div class="py-8 d-none">
+                <h2 class="display-5 fw-bold mb-6 text-center">Our team</h2>
+                {{#if (config team)}}
+                <div class="row g-6">
+                    {{#each team.entries}}
+                    <!-- Single Team-->
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <div class="card card-vcard">
+                            <picture class="avatar">
+                                <img class="img-fluid rounded-circle" src="{{ img }}" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <h5 class="card-title vcard-title mt-4">{{ name }}</h5>
+                            <h6 class="card-subtitle mb-4 text-primary vcard-subtitle">{{ title }}</h6>
+                            <p class="text-muted">{{ bio }}</p>
+                            <ul class="list-unstyled d-flex">
+                                <li class="mx-2"><a href="#"><i class="ri-linkedin-box-fill ri-2x"></i></a></li>
+                                <li class="mx-2"><a href="#"><i class="ri-facebook-box-fill ri-2x"></i></a></li>
+                                <li class="mx-2"><a href="#"><i class="ri-twitter-fill ri-2x"></i></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <!-- / Single Team-->
+                    {{/each}}
+
+                </div>
+                {{/if}}
+
+            </div>
+            <!-- / Company Leadership-->
+
+            <!-- Careers-->
+            <div class="d-flex justify-content-center my-5">
+                <div class="rounded-pill border px-5 py-3 text-muted d-flex align-items-center">
+                    Want to join our team? <a href="/contact.html" class="fw-bold d-flex align-items-center ms-2">We are
+                        hiring <i class="ri-arrow-right-line ms-1"></i></a>
+                </div>
+            </div>
+            <!-- / Careers-->
+
+
+        </div>
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

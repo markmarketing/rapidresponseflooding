@@ -1,0 +1,47 @@
+<div class="py-10">
+    <div class="container">
+        <h4 class="fs-1 fw-bold mb-3 text-center">explore our services</h4>
+        <p class="text-muted text-center">
+            We provide a wide variety of services that are centered around disaster recovery and restoration to buildings and
+            structures from both natural and human causes. The process of restoration is meticulous and detailed, and requires
+            proper planning and a certain level of skill and expertee.
+            Services include flood damage restoration, mold remediation and restoration, fire and smoke damage restoration,
+            emergency restoration, residential and commercial restoration and many more. You can check out all of these right
+            here.
+        </p>
+        <div class="row gx-10 gy-7 mt-4">
+            {{#each features.entries}}
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start position-relative">
+                <!-- Feature-->
+                <span class="f-w-8 d-block fa-2x text-tango">
+                    {{{ svg }}}
+                </span> 
+                <a href="{{ url }}" class="link-cover" data-seo="{{ alt_text }}">
+                    <p class="fw-medium text-brand mb-1 mt-3 fs-5">{{ title }}</p>
+                </a>
+                <span class="text-muted fs-7">{{ description }}</span>
+                <!-- / Feature-->
+
+            </div>
+            {{/each}}
+    
+        </div>
+        <ul class="list-unstyled d-none d-md-flex align-items-center justify-content-center small text-muted mt-6 pt-1 fw-medium fs-9">
+            <li class="me-5 d-flex align-items-center">
+                <i class="ri-checkbox-circle-fill text-brand ri-lg me-1"></i> 
+                Industry certified
+            </li>
+            <li class="me-5 d-flex align-items-center">
+                <i class="ri-checkbox-circle-fill text-brand ri-lg me-1"></i> 
+                Technology-centric
+            </li>
+            <li class="me-5 d-flex align-items-center">
+                <i class="ri-checkbox-circle-fill text-brand ri-lg me-1"></i> 
+                Service driven
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+

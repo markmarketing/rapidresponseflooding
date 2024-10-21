@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head)
+title="Fire Restoration"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering areas across
+Victorville, Apple Valley, Hesperia, San Bernardino county area and across most of southern california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, victorville, san
+bernardino, california"
+
+}}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="{{ config.classes.content }}">
+
+        <!-- Page Title-->
+        <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+            <h1 class="display-3 fw-bold mb-3">Fire and Smoke Restoration</h1>
+            <p class="text-muted lead mb-0">
+                When fire strikes, the aftermath can be devastating, leaving homes or businesses in disarray. Fire
+                restoration is a meticulous process that aims not only to repair structural damage but also to breathe
+                new life into spaces tainted by the remnants of smoke and soot. The journey of fire restoration
+                typically begins with a thorough assessment by trained professionals who evaluate the extent of the
+                damage, identifying areas that require immediate attention.
+            </p>
+        </header>
+        <!-- / Page Title-->
+
+        <!-- Page Content Goes Here -->
+        <div class="container py-7">
+            <!-- About Us Images-->
+            <div class="row g-3">
+
+                <!-- Image Column Left -->
+                <div class="col-12 col-md-6 d-none d-md-block">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/fire-1.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mb-3" src="{{webRoot}}/assets/images/fire-2.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/fire-3.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Left -->
+
+                <!-- Image Column Right -->
+                <div class="col-12 col-md-6">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-none d-md-block">
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/fire-4.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mb-3" src="{{webRoot}}/assets/images/fire-5.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/fire-6.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Right -->
+
+            </div>
+            <!-- About Us Images-->
+
+            <!-- Company Story-->
+            <div class="py-6 mt-10 row gx-8 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <!-- <p class="mb-3 small fw-bolder tracking-wider text-uppercase text-primary">Being Resilient</p> -->
+                    <h2 class="text-brand">The Meticulous Process</h2>
+                    <p>Once the assessment is complete, the restoration team initiates the critical step of swift smoke
+                        and soot removal. Using advanced cleaning techniques and equipment, they work diligently to
+                        eliminate residues that can permeate every nook and cranny. This step not only ensures a clean
+                        slate for the restoration process but also helps prevent long-term damage caused by corrosive
+                        elements present in smoke.</p>
+
+                    <p>Structural integrity is a primary focus in the fire restoration process. Restoration specialists
+                        assess and repair damage to walls, ceilings, and supports, fortifying the building for long-term
+                        resilience. Beyond structural repairs, deodorization becomes paramount. Lingering smoke odors
+                        can persist long after the fire is extinguished, affecting the quality of indoor air.
+                        Restoration experts employ specialized techniques to neutralize and eliminate these odors,
+                        leaving the space fresh and inviting.
+                    </p>
+
+                    <p>Content restoration is another crucial facet of the process, addressing the sentimental value of
+                        personal belongings. Whether it's cherished family photographs or valuable possessions,
+                        restoration specialists strive to salvage and restore items affected by the fire. This
+                        meticulous attention to detail is part of the commitment to rebuilding not just structures but
+                        the sense of comfort and security that a home or business provides. As the final touch, thorough
+                        testing and verification are conducted to ensure the effectiveness of the restoration efforts,
+                        providing occupants the assurance that their space is genuinely renewed and safe. In every step
+                        of fire restoration, the goal is not just recovery but the creation of a space that transcends
+                        the past, embodying resilience and the promise of a brighter future.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <picture>
+                        <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/about-7.jpg"
+                            alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                </div>
+            </div>
+
+            <!-- /Company Story-->
+
+        </div>
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

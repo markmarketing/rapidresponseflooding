@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+
+    <!-- Head -->
+    {{> (config config.partials.head)
+title="Flood Restoration Barstow, California"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering within
+Barstow california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, Barstow, california"
+
+}}
+
+    <body class="{{ config.classes.body }}">
+
+        <!-- Navbar -->
+        {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <main class="{{ config.classes.content }}">
+
+            <!-- Page Title-->
+            <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+                <h1 class="display-3 fw-bold mb-3 fs-1">Barstow, California</h1>
+                <p class="text-muted lead mb-0">
+                    We provide a wide variety of restoration and remediation services across Barstow and the wider community
+                    within the Mojave Desert areas. Services include but are not limited to water leaks, Water and Flood Damage
+                    restoration, Fire
+                    and
+                    Smoke damage restoration,
+                    Mold remediation and repairs, structure drying and many more relating to damages to property and structures.</p>
+            </header>
+            <!-- / Page Title-->
+
+            <!-- Page Content Goes Here -->
+            <div class="container py-5">
+                <div class="row align-items-center justify-content-md-evenly">
+                    <div class="col-12 col-lg-6">
+                        <picture>
+                            <img class="img-fluid rounded shadow-sm f-h-80" src="/assets/images/victorville_home1.jpg"
+                                alt="{{ config.defaultImgAlt }}">
+                        </picture>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <picture>
+                            <img class="img-fluid rounded shadow-sm f-h-80" src="/assets/images/hesp_floor_carpet.jpg"
+                                alt="{{ config.defaultImgAlt }}">
+                        </picture>
+                    </div>
+                    <h2 class="fs-5 mt-6 text-primary">Water Damage Mitigation and Restoration</h2>
+                    <p class="mt-2">
+                        Barstow is located in the High Desert area within Mojave in the San Bernardino county.
+                        Water damage mitigation prevents further water damage from affecting your property and
+                        belongings. The
+                        water
+                        mitigation
+                        process involves using specialized equipment and techniques to minimize the amount of loss, such as:
+                        Removing
+                        damaged
+                        furniture and materials, including drywall and flooring.</p>
+                </div>
+                <div class="py-5 row gx-8 align-items-start justify-content-md-evenly">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Water Damage Mitigation </h2>
+                        Water damage mitigation is the process by which, after restoration is complete. Everything else is properly
+                        checked and
+                        make sure that structures and damages do not happen again in the future.
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Water Damage Restoration</h2>
+                        Water damage restoration is the process by which damages to property are fixed and restored to its initial
+                        stage,
+                        prior
+                        to damage.
+                    </div>
+                </div>
+                <div class="py-3 row gx-8 align-items-start justify-content-md-evenly">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-3 text-primary">Flood Damage Repair</h2>
+                        If your home or property is being flooded, due to water leak or pipe damages and causing water to flood all over
+                        the place,
+                        then reach out to us so we can have someone attend to these issues immediately. Most of Barstow and the High
+                        Desert areas can experience some
+                        flooding and damages due to the physical location as well as changing weather patterns.
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Damaged Property Relocation</h2>
+                        During water and flood restoration we take extra precautionary measures to make sure property that is in the way
+                        does not get damaged due to flooding or water leaks.
+                        We isolate property that is recoverable and make sure the area is thoroughly clear of personal property and
+                        artifacts before beginning. We follow a rigorous approach when attending to any restoration process.
+                    </div>
+                </div>
+            
+            </div>
+
+            <!-- Cities listing-->
+            {{> widgets/cities }}
+            <!-- / Cities listing-->
+
+            <!-- /Page Content -->
+        </main>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+        <!-- / Footer-->
+
+        <!-- Theme JS -->
+        {{> footer/scripts }}
+
+    </body>
+
+</html>

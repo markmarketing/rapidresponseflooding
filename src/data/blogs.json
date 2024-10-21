@@ -1,0 +1,36 @@
+{
+    "entries": [
+        {
+            "img": "/assets/images/restoration-work1.jpg",
+            "title": "Rising Above The Waters: Restoring Homes, Renewing Lives",
+            "title-short": "Rising Above The Waters",
+            "url": "/blog/rising-above-the-waters.html",
+            "snippet": "some summary content here..",
+            "rank": true
+        },
+        {
+            "img": "/assets/images/devastated.jpg",
+            "title": "From Ashes to Renewal: A Tale of Fire, Resilience, and Restoration",
+            "title-short": "From Ashes to Renewal",
+            "url": "/blog/from-ashes-to-renewal.html",
+            "snippet": "some summary content here..",
+            "rank": true
+        },
+        {
+            "img": "/assets/images/structure-decay.jpg",
+            "title": "Clearing the Air: Battling Mold, Restoring Spaces",
+            "title-short": "Clearing the Air",
+            "url": "/blog/clearing-the-air-battling-mold.html",
+            "snippet": "some summary content here..",
+            "rank": true
+        },
+        {
+            "img": "/assets/images/milestone12.jpg",
+            "title": "Celebrating 12 Years of Service",
+            "title-short": "Celebrating 12 Years",
+            "url": "/blog/celebrating-12-years-exceptional-flood-restoration-services-milestone.html",
+            "snippet": "Celebrating 12 Years of Service",
+            "rank": false
+        }
+    ]
+}

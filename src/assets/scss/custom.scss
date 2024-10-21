@@ -1,0 +1,30 @@
+@include media-breakpoint-down(md) {
+    .about-company {
+        height: auto;
+        max-width: 100%;
+    }
+
+}
+
+@include media-breakpoint-down(md) {
+    .equipment-text {
+        padding: 5px;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .equipment-text {
+        margin-left: 8px;
+    }
+}
+
+
+::placeholder {
+    opacity: 0.75;
+    color: $faint !important;
+}
+  

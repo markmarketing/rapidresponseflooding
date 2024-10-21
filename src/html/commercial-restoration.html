@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head)
+title="Commercial Restoration"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage, fire damage and emergency repair restoration services covering areas across
+Victorville, Apple Valley, Hesperia, San Bernardino and across most of southern california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, victorville
+california, san bernardino, california"
+}}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="{{ config.classes.content }}">
+
+        <!-- Page Title-->
+        <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+            <h1 class="display-3 fw-bold mb-3">Commercial, Industrial Restoration</h1>
+            <p class="text-muted lead mb-0">
+                In the dynamic landscape of commerce and industry, unforeseen disasters can disrupt operations and
+                threaten livelihoods. Here at Rapid Response Flood Restoration, we specialize in being the guiding force
+                that revitalizes commercial and industrial spaces after unexpected events. Our comprehensive restoration
+                services are tailored to meet the unique challenges of large-scale structures, ensuring swift recovery,
+                and minimizing downtime.</p>
+        </header>
+        <!-- / Page Title-->
+
+        <!-- Page Content Goes Here -->
+        <div class="container py-7">
+            <!-- About Us Images-->
+            <div class="row g-3">
+
+                <!-- Image Column Left -->
+                <div class="col-12 col-md-6 d-none d-md-block">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-1.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mb-3"
+                                    src="{{webRoot}}/assets/images/about-2.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-3.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Left -->
+
+                <!-- Image Column Right -->
+                <div class="col-12 col-md-6">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-4.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm mb-5"
+                                    src="{{webRoot}}/assets/images/flood-5.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-6.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Right -->
+
+            </div>
+            <!-- About Us Images-->
+
+            <!-- Company Story-->
+            <div class="py-6 mt-10 pt-5 row gx-8 align-items-start">
+                <div class="col-12 col-lg-6">
+                    <h2 class="text-brand fs-4 f-h-18">A layer of complexity that demands perfection</h2>
+                    <p class="my-3 pb-2">Our team of skilled professionals leverages advanced technologies to assess and
+                        address damage efficiently. From water and fire damage to mold remediation, we understand the
+                        urgency and complexity of restoring commercial and industrial spaces. We pride ourselves on a
+                        customer-centric approach, providing transparent communication and customized solutions that
+                        prioritize your business's specific needs. We are not just restoring spaces; we are fostering
+                        resilience and ensuring businesses thrive even in the face of adversity.</p>
+                    <p class="my-3 bp-2">With our expertise, state-of-the-art equipment, and commitment to minimizing
+                        disruptions, we stand ready to revive your business environment. Because in every restoration
+                        project, there's an opportunity for renewed success.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <picture>
+                        <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/about-7.jpg"
+                            alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                </div>
+            </div>
+
+            <!-- /Company Story-->
+
+        </div>
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+    <!-- Head -->
+    {{> (config config.partials.head)
+title="Fontana, California"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering areas within Fontana and
+across most of Inland Empire"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, fontana, california"
+
+}}
+
+    <body class="{{ config.classes.body }}">
+
+        <!-- Navbar -->
+        {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <main class="{{ config.classes.content }}">
+
+            <!-- Page Title-->
+            <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+                <h1 class="display-3 fw-bold mb-3 fs-1">Fontana, California</h1>
+                <p class="text-muted lead mb-0">
+                    We provide a wide variety of restoration and remediation services across Fontana and the wider community
+                    within the Inland Empire area. Services include but are not limited to water leaks, Water and Flood Damage
+                    restoration, Fire
+                    and
+                    Smoke damage restoration,
+                    Mold remediation and repairs, structure drying and many more relating to damages to property and structures.</p>
+            </header>
+            <!-- / Page Title-->
+
+            <!-- Page Content Goes Here -->
+            <div class="container d-flex py-7">
+                <div class="row align-items-center justify-content-md-evenly">
+
+                </div>
+
+                <div class="py-6 pt-10 mt-5 row gx-8 align-items-start">
+
+                </div>
+            </div>
+
+            <div class="container d-flex p1-10">
+                <div class="pt-8 row gx-8 align-items-start justify-content-md-evenly">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Water Damage Mitigation </h2>
+                        Water damage mitigation is the process by which, after restoration is complete. Everything else is properly
+                        checked and
+                        make sure that structures and damages do not happen again in the future.
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Water Damage Restoration</h2>
+                        Water damage restoration is the process by which damages to property are fixed and restored to its initial
+                        stage,
+                        prior
+                        to damage.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container d-flex pb-6">
+                <div class="row gx-8 align-items-start justify-content-md-evenly">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Rapid Flood Damage Repair</h2>
+                        Water damage mitigation is the process by which, after restoration is complete. Everything else is properly
+                        checked and
+                        make sure that structures and damages do not happen again in the future.
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <h2 class="fs-5 mt-6 text-primary">Indoor Flood Mitigation and Restoration</h2>
+                        Water damage restoration is the process by which damages to property are fixed and restored to its initial
+                        stage,
+                        prior
+                        to damage.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cities listing-->
+            {{> widgets/cities }}
+            <!-- / Cities listing-->
+
+            <!-- /Page Content -->
+        </main>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+        <!-- / Footer-->
+
+        <!-- Theme JS -->
+        {{> footer/scripts }}
+
+    </body>
+
+</html>

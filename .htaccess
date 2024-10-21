@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+
+Redirect 301 /index.html https://www.rapidresponseflood.com/
+
+# Disable server signature 
+ServerSignature Off
+

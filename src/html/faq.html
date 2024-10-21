@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+    <!-- Head -->
+    {{> (config config.partials.head)
+title="FAQ"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering areas across
+Victorville, Apple Valley, Hesperia, San Bernardino county area and across most of southern california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, victorville, san
+bernardino, california"
+
+}}
+
+    <body class="{{ config.classes.body }}">
+
+        <!-- Navbar -->
+        {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <main class="{{ config.classes.content }}">
+
+            <!-- Page Title-->
+            <header class="bg-brand py-10 text-white overflow-hidden position-relative z-index-10">
+                <div class="container">
+                    <div class="f-w-72 position-absolute top-n30 start-n13 opacity-5 d-none d-lg-block">
+                        <span class="d-block">
+                            {{>svg/svg-shape-eight
+                        colorOne="text-tango"
+                        colorTwo="text-tango"
+                        }}
+
+                        </span>
+                    </div>
+
+                    <div class="f-w-72 position-absolute bottom-10 end-n3 opacity-10 d-none d-lg-block">
+                        <span class="d-block">
+                            {{>svg/svg-shape-three
+                        colorOne="text-success"
+                        colorTwo="text-success"
+                        }}
+
+                        </span>
+                    </div>
+
+                    <div class="text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto position-relative z-index-20">
+                        <h1 class="display-4 fw-bold mb-3">frequently asked questions</h1>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Enterprise Banner-->
+            <!-- <div class="my-10 bg-primary p-4 p-md-6 rounded text-white d-flex align-items-center position-relative"> -->
+
+            <!-- <div class="row">
+                    <div class="col-12 col-md-5 position-relative z-index-20">
+                        <h4 class="fs-3 fw-bold mb-3">Need Enterprise?</h4>
+                        <p class="opacity-75">Our Enterprise package is custom-built per client - ideal for large businesses.</p>
+                        <a class="btn btn-white" href="#" role="button">Discuss your requirements</a>
+            
+                    </div>
+                    <div class="col-12 col-md-6 offset-md-1 mt-5 mt-lg-0 position-relative z-index-20">
+
+                    </div>
+                </div> -->
+            <!-- SVG Shape-->
+            <!-- <div class="position-absolute top-0 end-0 start-0 bottom-0 z-index-0 d-none d-lg-block overflow-hidden">
+                    <div class="d-block f-w-80 position-absolute top-10 end-n25 opacity-25">
+                        <span class="d-block">
+                            {{>svg/svg-shape-one
+                                colorOne="text-white"
+                                colorTwo="text-white"
+                            }}
+            
+                        </span>
+                    </div>
+                </div> -->
+            <!-- / SVG Shape-->
+
+            <!-- </div> -->
+
+            <!-- <ul class="list-unstyled">
+                <li class="me-4 mb-2 d-flex align-items-center">
+                    <i class="ri-checkbox-circle-fill opacity-75 ri-lg me-1"></i> 
+                    Custom package per client
+                </li>
+                <li class="me-4 mb-2 d-flex align-items-center">
+                    <i class="ri-checkbox-circle-fill opacity-75 ri-lg me-1"></i> 
+                    Unlimited resources
+                </li>
+                <li class="me-4 mb-2 d-flex align-items-center">
+                    <i class="ri-checkbox-circle-fill opacity-75 ri-lg me-1"></i> 
+                    Add additional features
+                </li>
+            </ul> -->
+
+            <!-- / Enterprise Banner-->
+
+            <!-- Company Logos-->
+            {{#if (config logos-two)}}
+                <!-- <div class="my-10 py-4">
+                <div class="container">
+                    <p class="mb-6 text-center small fw-bolder tacking-wider text-muted text-uppercase">
+                        Already trusted by thousands of brands</p>
+                    <div class="row gx-8 gy-5 justify-content-center align-items-center">
+                        {{#each logos-two.entries}}
+                        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                            <picture>
+                                <img class="img-fluid" src="{{ img }}" alt="{{config.defaultImgAlt}}">
+                            </picture>
+                            
+                        </div>
+                        {{/each}}
+
+                    </div>
+                </div>
+            </div> -->
+
+            {{/if}}
+            <!-- / Company Logos-->
+            <!-- </div> -->
+
+
+            <!-- FAQs-->
+            <div class="bg-lighter mb-10">
+                <div class="container">
+                    <div class="mx-auto mt-5 co-12 col-md-8 col-lg-8 col-xl-8">{{> widgets/faq }}</div>
+                </div>
+            </div>
+            <!-- / FAQs-->
+
+            <!-- /Page Content -->
+        </main>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+        <!-- / Footer-->
+
+        <!-- Theme JS -->
+        {{> footer/scripts }}
+
+    </body>
+
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head)
+title="Water, Flood Restoration, Mold Restoration, Fire Smoke Restoration"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering areas across
+Victorville, CA, and the San Bernardino county areas in Southern California"
+keywords="Water Damage Cleanup, Water Damage Repair, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, Fire and Smoke Damage Repair, Fire and Smoke Restoration, Mold removal restoration"
+canonical='ref="canonical"'
+
+
+}}
+
+<body class="{{ config.classes.body }}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP9WKZ5T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="{{ config.classes.content }}">
+        <!-- Page Content Goes Here -->
+        <div class="container col-sm-12 col-md-8">
+            <div class="text-center mt-3">
+                <h1 class="fw-light fs-7 lead text-muted">Rapid Response Flood, Water Damage or Leaks, Mold Build Up, or
+                    Fire Damages Repair and Restoration Services</h1>
+            </div>
+        </div>
+        <!-- Hero-->
+        {{> widgets/swiper-slider}}
+        <!-- { { > widgets/hero } } -->
+        <!-- /Hero-->
+
+        <!-- <div class="container py-10">
+            < !-- <div class="plyr__video-embed  f-w-6" id="player">
+                <iframe
+                  src="https://player.vimeo.com/video/76979871?loop=false
+                  &amp;byline=false&amp;portrait=false&amp;title=false&amp;speed=true&amp;transparent=0&amp;gesture=media"
+                  allowfullscreen
+                  allowtransparency
+                  allow="autoplay"
+                ></iframe>
+              </div>
+              
+        </div> -->
+
+        <!-- About Us-->
+        {{> widgets/about }}
+        <!-- / About Us-->
+
+        <!-- Logo Showcase-->
+        <!-- <div class="bg-primary py-8">
+            <p class="mb-0 text-center small fw-bolder tracking-wider text-uppercase text-white opacity-75">Trusted by thousands of companies worldwide</p>
+            <div class="mt-5">
+                {{> marquee/marquee-logos }}
+            </div>
+        </div> -->
+        <!-- Logo Showcase-->
+
+        <!-- Integrations-->
+        <!-- { { > widgets/integrations } } -->
+        <!-- / Integrations-->
+
+        <!-- Product Features summary-->
+        {{> widgets/features }}
+        <!-- Product Features summary-->
+
+        <!-- Integrations-->
+        {{> widgets/equipment }}
+        <!-- / Integrations-->
+
+        <!-- Product Highlights-->
+        <!-- { { > widgets / highlights }} -->
+        <!-- /Product Highlights-->
+
+        <!-- Customer Reviews-->
+        {{> widgets/reviews }}
+        <!-- /Customer Reviews-->
+
+        <!-- Latest Blog Posts-->
+        {{> widgets/blog }}
+        <!-- / Latest Blog Posts-->
+
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

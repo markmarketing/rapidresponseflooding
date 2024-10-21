@@ -1,0 +1,52 @@
+<div class="row py-lg-5 gx-8">
+    
+    <!-- Menu Row One -->
+    <div class="col-auto col-lg-4 mb-4 mb-lg-0 d-flex align-items-start">
+        <span class="f-w-10 text-primary me-4 d-none d-lg-flex">
+            <i class='fa-solid fa-house-flood-water-circle-arrow-right text-brand'></i>
+        </span>
+        <div class="position-relative">
+            <h6 class="dropdown-heading">Flood Restoration</h6>
+            <p class="text-muted">Flood Restoration - focuses on the restoration process after a home is struck by natural floods or water leakages.</p>
+            <a class="fw-medium fs-7 text-decoration-none link-cover" href="/flood-restoration.html">Read more &rarr;</a>
+        </div>
+    </div>
+    <!-- /Menu Row One -->
+
+
+    <!-- Menu Row Two -->
+    <div class="col-auto col-lg-4 mb-4 mb-lg-0 d-flex align-items-start">
+        <span class="f-w-10 text-primary me-4 d-none d-lg-flex">
+            <i class='fa-solid fa-icicles text-brand'></i>
+        </span>
+        <div class="position-relative">
+            <h6 class="dropdown-heading">Mold Restoration</h6>
+            <p class="text-muted">Mold Removal and Restoration requires proper planning and strategy to avoid future contamination.</p>
+            <a class="fw-medium fs-7 text-decoration-none link-cover" href="/mold-restoration.html">Read more &rarr;</a>
+        </div>
+    </div>
+    <!-- /Menu Row Two -->
+
+
+    <!-- Menu Row Three -->
+    <div class="col-auto col-lg-4 mb-4 mb-lg-0 d-flex align-items-start">
+        <span class="f-w-10 text-primary me-4 d-none d-lg-flex">
+            <i class='fa-solid fa-house-fire text-brand'></i>
+        </span>
+        <div class="position-relative">
+            <h6 class="dropdown-heading">Fire Restoration</h6>
+            <p class="text-muted">Fire and Smoke damages can be hazardous over time. Like the others, there is some level of urgency and thorough planning when dealing with fire and smoke.</p>
+            <a class="fw-medium fs-7 text-decoration-none link-cover" href="/fire-restoration.html">Read more &rarr;</a>
+        </div>
+    </div>
+    <!-- /Menu Row Three -->
+
+</div>
+
+<p>our articles</p>
+{{#if (config blogs)}}
+{{#each blogs.entries}}
+    <a class="px-6 pb-3" href="{{ url }}">{{ title-short }} &rarr;</a>  
+{{/each}}
+{{/if}}
+<div>&nbsp;</div>

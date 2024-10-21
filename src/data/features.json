@@ -1,0 +1,46 @@
+{
+    "entries": [
+        {
+            "svg": "<i class='fa-solid fa-house-flood-water-circle-arrow-right'></i>",
+            "title": "Flood Restoration",
+            "description": "Flood Restoration - focuses on the restoration process after a home is struck by natural floods or water leakages",
+            "url": "/flood-restoration.html",
+            "alt_text": "Flood Restoration"
+        },
+        {
+            "svg": "<i class='fa-solid fa-icicles'></i>",
+            "title": "Mold Removal",
+            "description": "Mold Removal and Restoration requires proper planning and strategy to avoid future contamination",
+            "url": "/mold-restoration.html",
+            "alt_text": "Mold Removal"
+        },
+        {
+            "svg": "<i class='fa-solid fa-house-medical-circle-exclamation'></i>",
+            "title": "Structure Drying",
+            "description": "Structure Drying - the initial process of making sure structures are free of humidity and are not further damaged",
+            "url": "/structure-drying.html",
+            "alt_text": "Structure Drying"
+        },
+        {
+            "svg": "<i class='fa-solid fa-house-fire'></i>",
+            "title": "Fire,Smoke Damage Restoration",
+            "description": "Fire and Smoke damages can be hazardous over time. Like the others, there is some level of urgency and thorough planning when dealing with fire and smoke",
+            "url": "/fire-restoration.html",
+            "alt_text": "Fire,Smoke Damage Restoration"
+        },
+        {
+            "svg": "<i class='fa-solid fa-house-crack'></i>",
+            "title": "Residential Restoration",
+            "description": "We cover all kinds of residential restoration work no matter how small or big",
+            "url": "/residential-restoration.html",
+            "alt_text": "Residential Restoration"
+        },
+        {
+            "svg": "<i class='fa-solid fa-building-columns'></i>",
+            "title": "Commercial Restoration",
+            "description": "With commercial or industrial restoration, these can be complex and definitely requie a lot of planning and due-diligence to accomplish restoration within a set timeframe",
+            "url": "/commercial-restoration.html",
+            "alt_text": "Commercial/Industrial Restoration"
+        }
+    ]
+}

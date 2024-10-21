@@ -1,0 +1,19 @@
+{
+    "defaultPageTitle": "Rapid Response Flood Restoration",
+    "templateName": "Sigma",
+    "classes": {
+        "body": "",
+        "navbar": "",
+        "content": "",
+        "footer": ""
+    },
+    "partials": {
+        "head": "head/head",
+        "navbar": "navbar/navbar-primary",
+        "footer": "footer/footer"
+    },
+    "defaultImgAlt": "Rapid Response Flood Restoration",
+    "helpDocsURL": "",
+    "demoURL": "",
+    "token": "helloThereMrFowler"
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+    <!-- Head -->
+    {{> (config config.partials.head)
+title="About Rapid Response Flood"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage repair, fire damage restoration and emergency repair services covering areas across
+Victorville, Apple Valley, Hesperia, San Bernardino county area and across most of southern california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, victorville, san
+bernardino, california"
+}}
+
+    <body class="{{ config.classes.body }}">
+
+        <!-- Navbar -->
+        {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <main class="{{ config.classes.content }}">
+
+            <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+                <h1 class="display-3 fw-bold mb-3">404 | missing page</h1>
+            </header>
+
+            <!-- Page Content Goes Here -->
+            <div class="container py-1">
+                <div class="row g-3 d-flex position-relative">
+                    <div class="col-12 col-md-8 col-lg-12 mx-auto text-center text-muted py-4 border-bottom mb-5">
+                        Sorry we couldn't find the page or resource you're looking for unfortunately. However, if you'd
+                        like you can check out our other pages and/or resources available here.
+                    </div>
+                </div>
+
+                <div class="py-6 row gx-8 align-items-start">
+                </div>
+
+            </div>
+            <!-- /Page Content -->
+        </main>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+        <!-- / Footer-->
+
+        <!-- Theme JS -->
+        {{> footer/scripts }}
+
+    </body>
+
+</html>

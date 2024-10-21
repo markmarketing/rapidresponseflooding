@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+{{> (config config.partials.head)
+title="Victorville, Barstow, Hesperia"
+home=true
+description="At Rapid Response Flood Restoration, we are committed to providing high-quality flood, water leak, mold,
+fire
+and smoke damage repair, remediation, restoration services"
+keywords="Water Damage Cleanup, Water Leak Repair, Flood Restoration, Emergency Water Removal, Flood Damage Repair,
+Water Extraction, Professional Flood Restoration, Fire and Smoke Damage Repair, Mold remedial removal restoration"
+
+
+}}
+
+<body class="{{ config.classes.body }}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MP9WKZ5T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="{{ config.classes.content }}">
+        <!-- Page Content Goes Here -->
+        <div class="container col-sm-12 col-md-8">
+            <div class="text-center mt-3">
+                <h1 class="fw-light fs-7 lead text-muted">Rapid Response Flood, Water Damage, Leaks, Mold Build Up,
+                    Fire, Smoke Damage Restoration and Mitigation Services</h1>
+            </div>
+        </div>
+        <!-- Hero-->
+        {{> widgets/swiper-slider}}
+        <!-- { { > widgets/hero } } -->
+        <!-- /Hero-->
+
+
+        <!-- About Us-->
+        {{> widgets/about }}
+        <!-- / About Us-->
+
+        <!-- Product Features summary-->
+        {{> widgets/features }}
+        <!-- Product Features summary-->
+
+        <!-- Integrations-->
+        {{> widgets/equipment }}
+        <!-- / Integrations-->
+
+
+        <!-- Customer Reviews-->
+        {{> widgets/reviews }}
+        <!-- /Customer Reviews-->
+
+        <!-- Latest Blog Posts-->
+        {{> widgets/blog }}
+        <!-- / Latest Blog Posts-->
+
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary {{ classList }}">
+    <div class="container">
+      
+        <!-- Logo-->
+        <a class="navbar-brand d-flex align-items-center lh-1 me-10 transition-opacity opacity-75-hover" href="/index.html">
+            <!-- Logo SVG Icon-->
+            <span class="f-w-7 d-block me-8">
+                <picture>
+                  <img class="" src="/assets/images/logo_crest.png" alt="Rapid Response | Flood, Mold and Natural Disaster Restoration">
+                </picture>
+                <picture class="me-5">
+                  <img class="ms-n2" src="/assets/images/rr_slogan.png"
+                    alt="Rapid Response | Flood, Mold and Natural Disaster Restoration">
+                </picture>
+            </span>
+            <!--/ Logo SVG Icon -->
+        </a>
+        <!-- / Logo-->
+
+      <button class="navbar-toggler" type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" 
+      aria-controls="navbarSupportedContent" aria-expanded="false" 
+      aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between align-items-center ps-5" id="navbarSupportedContent">
+        {{> navbar/menu }}
+
+        <div class="d-none d-lg-flex">
+          <picture class="ms-1 d-none d-sm-none d-md-block d-lg-block ms-md-1 ms-lg-5">
+              <img class="img-fluid mx-auto f-h-14 mt-2" src="/assets/images/iicrc-certified.png" alt="We are IICRC certified">
+          </picture>
+        </div>
+        <div class="d-none d-lg-flex ms-n3">
+            <picture class="d-none d-md-block d-lg-block ms-md-1 ms-lg-3">
+                <img class="img-fluid mx-auto f-h-14 mt-2" src="/assets/images/247_open_clock.png"
+                  alt="We are open 24 Hours, 7 Days a week">
+            </picture>
+        </div>
+        <div class="d-none d-lg-flex">
+            <!-- <a href="#" class="btn btn-link text-muted" role="button">Login</a> -->
+            <a href="/contact.html" class="btn btn-brand ms-2 mt-2" role="button"><i class="ri-phone-line d-none d-xl-inline"></i>&nbsp; 855-47-RAPID</a>
+        </div>
+      </div>
+    </div>
+  </nav>

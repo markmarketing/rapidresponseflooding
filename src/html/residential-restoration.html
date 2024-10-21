@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head)
+title="Residential Restoration"
+description="At Rapid Response Flood Restoration, we are committed to providing our customers with high-quality flood
+restoration, mold damage, fire damage and emergency repair restoration services covering areas across
+Victorville, Apple Valley, Hesperia, San Bernardino and across most of southern california"
+keywords="Water Damage Cleanup, Flood Restoration Services, Emergency Water Removal, Flood Damage Repair, Water
+Extraction, Professional Flood Restoration, mold damage repair, mold removal, fire damage repair, victorville
+california, san bernardino, california"
+
+}}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Navbar -->
+    {{> navbar/navbar
+    configClassList=config.classes.navbar
+    classList="border-bottom" }}
+    <!-- / Navbar-->
+
+    <!-- Main Section-->
+    <main class="{{ config.classes.content }}">
+
+        <!-- Page Title-->
+        <header class="pt-10 text-center col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto">
+            <h1 class="display-3 fw-bold mb-3">Residential Restoration</h1>
+            <p class="text-muted lead mb-0">
+                At Rapid Response Flood Restoration, we understand that homes are more than structures; they are
+                sanctuaries of comfort and memories. Our residential restoration services are crafted with the
+                recognition that restoring a home goes beyond physical repairs—it's about rebuilding lives and creating
+                a renewed haven. Whether it's water damage, fire and smoke issues, or the persistent presence of mold,
+                we specialize in transforming the aftermath of disasters into opportunities for renewal.
+            </p>
+        </header>
+        <!-- / Page Title-->
+
+        <!-- Page Content Goes Here -->
+        <div class="container py-7">
+            <!-- About Us Images-->
+            <div class="row g-3">
+
+                <!-- Image Column Left -->
+                <div class="col-12 col-md-6 d-none d-md-block">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-1.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm mb-3"
+                                    src="{{webRoot}}/assets/images/about-2.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-3.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Left -->
+
+                <!-- Image Column Right -->
+                <div class="col-12 col-md-6">
+
+                    <div class="row g-3">
+                        <div class="col-12 col-md-6 d-flex">
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-4.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                        <div class="col-12 col-md-6">
+
+                            <picture class="d-flex">
+                                <img class="img-fluid rounded shadow-sm mb-5"
+                                    src="{{webRoot}}/assets/images/flood-5.jpg" alt="{{ config.defaultImgAlt }}">
+                            </picture>
+                            <picture>
+                                <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/flood-6.jpg"
+                                    alt="{{ config.defaultImgAlt }}">
+                            </picture>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /Image Column Right -->
+
+            </div>
+            <!-- About Us Images-->
+
+            <!-- Company Story-->
+            <div class="py-6 pt-10 mt-5 row gx-8 align-items-start">
+                <div class="col-12 col-lg-6">
+                    <!-- <p class="mb-3 small fw-bolder tracking-wider text-uppercase text-primary">Being Resilient</p> -->
+                    <h2 class="text-brand fs-4 f-h-18">Our Commitment</h2>
+                    <p class="my-3 pb-2">With a cautious approach, our team addresses each residential restoration
+                        project with precision and care. We employ advanced technologies and methodologies to assess,
+                        repair, and restore homes efficiently. Our commitment extends beyond the restoration process; we
+                        aim to ease the emotional toll by guiding homeowners through each step with transparency and
+                        empathy. You can reach out to us at Rapid Response Flood Restoration for residential
+                        restoration, where every project is a chance to rebuild not just structures but the sense of
+                        security and comfort that homes provide. Because in every restored residence, there's a story of
+                        resilience and a fresh chapter ahead.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <picture>
+                        <img class="img-fluid rounded shadow-sm" src="{{webRoot}}/assets/images/about-7.jpg"
+                            alt="{{ config.defaultImgAlt }}">
+                    </picture>
+                </div>
+            </div>
+
+            <!-- /Company Story-->
+
+        </div>
+        <!-- /Page Content -->
+    </main>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>
